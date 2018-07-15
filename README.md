@@ -1,4 +1,6 @@
-# Welcome
+# Welcome to the VirtualBox Tutorial Source Code!
+
+[![Build Status](https://semaphoreci.com/api/v1/jhsu802701/tutorial-vbox-docu/branches/master/badge.svg)](https://semaphoreci.com/jhsu802701/tutorial-vbox-docu)
 
 This app was created with the aid of Docusaurus Neutrino, which automatically creates a new Docusaurus app from scratch.  It's like Rails Neutrino but for Docusaurus instead.
 
