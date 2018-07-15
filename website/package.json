@@ -6,9 +6,28 @@
     "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
-    "rename-version": "docusaurus-rename-version"
+    "rename-version": "docusaurus-rename-version",
+    "test": "npm run-script build"
   },
   "devDependencies": {
     "docusaurus": "^1.3.2"
-  }
+  },
+  "name": "tutorial-vbox-docu",
+  "version": "1.0.0",
+  "description": "tutorial for setting up a virtual machine with VirtualBox",
+  "main": "siteConfig.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/rubyonracetracks/tutorial-vbox-docu.git"
+  },
+  "keywords": [
+    "virtual machine",
+    "virtualbox",
+    "linux",
+    "sparkylinux"
+  ],
+  "author": "Jason Hsu",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/rubyonracetracks/tutorial-vbox-docu#readme"
 }
