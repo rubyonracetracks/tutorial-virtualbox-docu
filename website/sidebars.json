@@ -1,7 +1,6 @@
 {
   "docs": {
-    "Procedure": ["chapter01"],
-    "First Category": ["doc2"],
+    "Procedure": ["chapter01", "chapter02"],
     "Second Category": ["doc3"]
   }
 }
