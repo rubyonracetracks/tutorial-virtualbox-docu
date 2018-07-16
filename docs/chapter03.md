@@ -2,12 +2,16 @@
 id: chapter03
 title: "Chapter 3: Verifying the ISO"
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+## What's the point?
+You should verify your ISO file to make sure that it hasn't been corrupted.  In the event that you have problems booting up your virtual Linux machine from this file, you are assured that a corrupted file is not the culprit.
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+## What is MD5?
+MD5 calculates the value of a file by analyzing it with a cryptographic algorithm and producing an output string.
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
-
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+## Procedure
+* In your file browser, go to the directory where files are downloaded.
+* Open the sparkylinux-*-lxde-stb.iso.allsums.txt file.  You'll see the expected md5sum value of the SparkyLinux ISO file that you downloaded.
+* Open a terminal window, and go to the directory where files are downloaded.
+* Check the md5sum value of your SparkyLinux ISO file.  If your host OS is Linux, the terminal command to enter is "md5sum (name of ISO file)".  If your host OS is MacOS, the command is "md5 (name of ISO file)".  If your host OS is Windows, the command to enter is "certUtil -hashfile (name of ISO file) MD5".
+* In a moment, you will see the md5sum value of your SparkyLinux ISO file.  It should match the expected value, in which case you are ready to move on to the next chapter.
