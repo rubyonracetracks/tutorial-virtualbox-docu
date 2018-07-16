@@ -1,6 +1,5 @@
 {
   "docs": {
-    "Procedure": ["chapter01", "chapter02"],
-    "Second Category": ["doc3"]
+    "Sparky Linux Virtual Machine": ["chapter01", "chapter02", "chapter03"]
   }
 }
