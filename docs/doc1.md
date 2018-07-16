@@ -1,7 +1,7 @@
 ---
-id: doc1
-title: Latin-ish
-sidebar_label: Example Page
+id: chapter01
+title: "Chapter 1: Install VirtualBox"
+sidebar_label: "Chapter 1: Install VirtualBox"
 ---
 
 Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
