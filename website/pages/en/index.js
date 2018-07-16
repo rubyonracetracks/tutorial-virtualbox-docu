@@ -63,14 +63,6 @@ const ProjectTitle = props => (
   </h2>
 );
 
-const PromoSection = props => (
-  <div className="section promoSection">
-    <div className="promoRow">
-      <div className="pluginRowBlock">{props.children}</div>
-    </div>
-  </div>
-);
-
 class HomeSplash extends React.Component {
   render() {
     let language = this.props.language || '';
@@ -78,11 +70,6 @@ class HomeSplash extends React.Component {
       <SplashContainer>
         <div className="inner">
           <ProjectTitle />
-          <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html', language)}>Example Link</Button>
-            <Button href={docUrl('doc2.html', language)}>Example Link 2</Button>
-          </PromoSection>
         </div>
       </SplashContainer>
     );
