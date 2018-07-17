@@ -85,17 +85,6 @@ const Block = props => (
   </Container>
 );
 
-const Description = props => (
-  <Block background="dark">
-    {[
-      {
-        content: 'This is another description of how this project is useful',
-        title: 'Description',
-      },
-    ]}
-  </Block>
-);
-
 class Index extends React.Component {
   render() {
     let language = this.props.language || '';
@@ -104,7 +93,12 @@ class Index extends React.Component {
       <div>
         <HomeSplash language={language} />
         <div className="mainContainer">
-          <Description />
+          <Container padding={['bottom', 'top']} background="dark">
+            <h2>Welcome to VirtualBox Tutorial!</h2>
+              This is a <a href="http://www.rubyonracetracks.com/">Ruby on Racetracks</a> web site!  Whether or not Ruby on Racetracks sent you here, you have an interest in getting started with virtual machines.
+              <br /><br />
+              In this tutorial, you will install a <a href="https://sparkylinux.org/">SparkyLinux</a> virtual machine with <a href="https://www.virtualbox.org/">VirtualBox</a>.  In the unlikely event that you don't like SparkyLinux, you can use VirtualBox to try out other Linux distros.
+          </Container>
         </div>
       </div>
     );
