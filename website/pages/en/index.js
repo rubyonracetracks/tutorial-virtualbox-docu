@@ -63,6 +63,14 @@ const ProjectTitle = props => (
   </h2>
 );
 
+const PromoSection = props => (
+  <div className="section promoSection">
+    <div className="promoRow">
+      <div className="pluginRowBlock">{props.children}</div>
+    </div>
+  </div>
+);
+
 class HomeSplash extends React.Component {
   render() {
     let language = this.props.language || '';
@@ -70,6 +78,9 @@ class HomeSplash extends React.Component {
       <SplashContainer>
         <div className="inner">
           <ProjectTitle />
+          <PromoSection>
+            <Button href={docUrl('chapter01.html', language)}>Get started now!</Button>
+          </PromoSection>
         </div>
       </SplashContainer>
     );
@@ -97,7 +108,7 @@ class Index extends React.Component {
             <h2>Welcome to VirtualBox Tutorial!</h2>
               This is a <a href="http://www.rubyonracetracks.com/">Ruby on Racetracks</a> web site!  Whether or not Ruby on Racetracks sent you here, you have an interest in getting started with virtual machines.
               <br /><br />
-              In this tutorial, you will install a <a href="https://sparkylinux.org/">SparkyLinux</a> virtual machine with <a href="https://www.virtualbox.org/">VirtualBox</a>.  In the unlikely event that you don't like SparkyLinux, you can use VirtualBox to try out other Linux distros.
+              In this tutorial, you will install a <a href="https://sparkylinux.org/">SparkyLinux</a> virtual machine with <a href="https://www.virtualbox.org/">VirtualBox</a>.  In the unlikely event that you don't like SparkyLinux, you can use VirtualBox to try out other Linux distros.  In fact, VirtualBox is very popular with distro hoppers, because it makes it possible to try out a Linux distro without disrupting the host OS.
           </Container>
         </div>
       </div>
