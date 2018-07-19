@@ -14,6 +14,6 @@ title: "Chapter 7: Installing SparkyLinux"
 * Enter your name, username, name of computer, and password.  (You may use "rubyonracetracks" for the computer name.)  Toggle off the option to log in automatically.  Click on "Next" to continue.
 * Check the parameters in the summary section.  If they are correct, click on "Next" to continue.
 * The installation process will now begin and take several minutes to complete.  How long this takes depends on the speed of your computer.
-* After the installation process is completed, click on "Quit".
+* After the installation process is completed, click on "Done".
 * Click on Menu -> Logout and select "Shutdown".
 * The next chapter explains how to remove the ISO file from the virtual optical drive.  This is the virtual equivalent of ejecting the DVD from a physical optical drive.
