@@ -1,6 +1,6 @@
 ---
 id: chapter10
-title: "Chapter 10: Upgrading Sparky Linux"
+title: "Chapter 10: Updating SparkyLinux"
 ---
 
 * Boot up the SparkyLinux virtual machine.
