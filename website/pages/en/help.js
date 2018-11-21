@@ -27,19 +27,8 @@ class Help extends React.Component {
           <div className="post">
             <header className="postHeader">
               <h1>Help</h1>
+              Help is available on the <a href="https://www.rubyonracetracks.com/help.html">Ruby on Racetracks</a> help page.
             </header>
-            
-            <h2>FAQ</h2>
-            Common questions are answered on the <a href="http://www.rubyonracetracks.com/docs/virtualbox.html">Ruby on Racetracks</a> site.
-            
-            <h2>Discuss</h2>
-            <ul>
-              <li><a href='https://groups.google.com/forum/#!forum/ruby_on_racetracks'>Google Group</a></li>
-              <li><a href='https://twitter.com/RubyRacetracks'>Twitter</a></li>
-            </ul>
-            
-            <h2>Email</h2>
-            <img src='../img/email.jpg'/>
           </div>
         </Container>
       </div>
