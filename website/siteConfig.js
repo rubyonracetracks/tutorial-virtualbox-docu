@@ -29,6 +29,7 @@ const siteConfig = {
     {doc: 'chapter01', label: 'Docs'},
     {page: 'git', label: 'Git'},
     {page: 'help', label: 'Help'},
+    {page: 'links', label: 'Links'},
   ],
 
   /* path to images for header/footer */
