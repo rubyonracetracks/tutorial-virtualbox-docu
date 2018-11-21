@@ -10,7 +10,7 @@
     "test": "npm run-script build"
   },
   "devDependencies": {
-    "docusaurus": "^1.3.2"
+    "docusaurus": "^1.5.1"
   },
   "name": "tutorial-vbox-docu",
   "version": "1.0.0",
