@@ -1,23 +1,20 @@
 # Welcome to the VirtualBox Tutorial Source Code!
 
-[![Build Status](https://semaphoreci.com/api/v1/jhsu802701/tutorial-vbox-docu/branches/master/badge.svg)](https://semaphoreci.com/jhsu802701/tutorial-vbox-docu)
-
-This app was created with the aid of Docusaurus Neutrino, which automatically creates a new Docusaurus app from scratch.  It's like Rails Neutrino but for Docusaurus instead.
-
-## Scripts
-* all.sh: This script runs test_app.sh and test_code.sh.
-* credentials.sh: Run this script after you reset your Docker container to enter your Git name and email address.
-* test_app.sh: This script runs the commands "npm install" and "npm test" in the website directory.
-* test_code.sh: This script runs commands that check this app for outdated and insecure npm packages.
-* server.sh: This script displays your app on your local server. Please note that the port number will be something other than 3000 if you used a non-zero offset.
-* git_check.sh: Run this script before making a Git commit.
-* clean.sh: This script removes the website/build, website/i18n, and website/node_modules directories to make it easier to search for keywords in your source code.  However, you will need to stop your local server, rebuild this app, and restart your server.
+This repository contains the source code for the [VirtualBox Tutorial](https://www.virtualboxtutorial.com/).
 
 ## Setup Procedure
-* If you are using Docker, you need at least two tmux windows.  If you have Docusaurus installed directly in your host OS, you'll need at least two terminal windows or tabs.
-* In the first window, enter this app's root directory and enter the command "sh all.sh; sh server.sh".
-* In the second window, enter this app's root directory.  Use this window for running the scripts and entering Git commands.
+* Open your terminal.
+* Use the "git clone" command to download this repository to your local machine.
+* Within the root directory of this project, enter the command "bash build.sh; bash server.sh" to set up this app and run the Docusaurus server afterward in this terminal tab.  In the end, you will be able to view this app at http://localhost:3000/.
+* Create a second terminal tab for entering commands.
+* Follow the instructions in the README-to_do.txt file to deploy this app, add continuous integration, and take care of other routine details.
 
-## Entering NPM Commands
-* Please note that "npm commands" should be executed within the website directory and NOT in this project's root directory.  You may need a third window for this.
-* The above scripts take care of this detail for you.
+## Other Important Commands
+* `bash nuke.sh`: This command deletes all Docker images and containers.  It's handy for resetting your Docker setup.
+* `bash clean.sh`: This command removes the "website/build", "website/i18n", and "website/node_modules" directories.  This is handy for searching for a certain string in your source code.
+* `bash git_check.sh`: Before you use the "git add" and "git commit" commands, run the git_check.sh script to make sure that all tests pass.
+* `bash exec.sh *`: Add the command "bash exec.sh" to the beginning of any command in order to execute it within the Docker container (instead of the host OS).
+* `bash root.sh *`: Enter the Docker container as root.
+* `bash test_app.sh`: Use this command to run the full test suite.
+* `bash test_code.sh`: Use this command to run "yarn audit" and "yarn outdated".
+* `bash info.sh`: Use this command to get basic information on the Docker container.
