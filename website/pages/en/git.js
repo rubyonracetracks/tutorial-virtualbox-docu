@@ -24,7 +24,7 @@ class Gitpages extends React.Component {
             <header className="postHeader">
               <h1>Git Repository</h1>
             </header>
-              This site's source code is on <a href="https://bitbucket.org/rubyonracetracks/tutorial-vbox-docu/">Bitbucket</a>.
+              This site's source code is on <a href="https://github.com/rubyonracetracks/tutorial-virtualbox-buster-docu">GitHub</a>.
           </div>
         </Container>
       </div>
