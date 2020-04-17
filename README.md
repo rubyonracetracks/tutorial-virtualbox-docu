@@ -1,3 +1,5 @@
+[![Build Status](https://semaphoreci.com/api/v1/jhsu802701/tutorial-virtualbox-buster-docu/branches/master/badge.svg)](https://semaphoreci.com/jhsu802701/tutorial-virtualbox-buster-docu)
+
 # Welcome to the VirtualBox Tutorial Source Code!
 
 This repository contains the source code for the [VirtualBox Tutorial](https://www.virtualboxtutorial.com/).
