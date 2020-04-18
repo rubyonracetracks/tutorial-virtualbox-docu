@@ -19,13 +19,13 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/rubyonracetracks/tutorial-vbox-docu.git"
+    "url": "https://github.com/rubyonracetracks/tutorial-virtualbox-buster-docu.git"
   },
   "keywords": [
     "virtual machine",
     "virtualbox",
     "linux",
-    "sparkylinux"
+    "mxlinux"
   ],
   "author": "Jason Hsu",
   "license": "ISC",

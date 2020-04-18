@@ -10,7 +10,7 @@
 
 const siteConfig = {
   title: 'VirtualBox Tutorial' /* title for your website */,
-  tagline: 'Install SparkyLinux on any computer WITHOUT disrupting the host OS!',
+  tagline: 'Install MX Linux on any computer WITHOUT disrupting the host OS!',
   url: 'http://www.virtualboxtutorial.com/' /* your website url */,
   baseUrl: '/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
