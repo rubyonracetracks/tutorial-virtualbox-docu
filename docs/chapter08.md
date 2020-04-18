@@ -1,9 +1,9 @@
 ---
 id: chapter08
-title: "Chapter 8: Emptying the Virtual Optical Drive"
+title: "Chapter 8: Rebooting"
 ---
 
-* In the VirtualBox main screen, select "SparkyLinux", click on "Settings", and click on "Storage".  
-* Select the SparkyLinux ISO file (under "Controller: IDE"), click on the disc symbol, and select the "Remove Disk from Virtual Drive" option.  The virtual IDE controller should now be empty.
-* Click on "OK" to return to the VirtualBox main screen.
-* The next chapter explains how to save a snapshot of the current state of your virtual machine.
+* During the reboot process, you will be asked to remove the disc and press Enter to do so.  The virtual disc is automatically ejected, so just press "Enter" to continue.
+* At the login prompt, enter your password to sign in.  Now you're in your new MX Linux installation.
+* Shut down the virtual machine using the same procedure described at the end of the previous chapter.
+* In the next chapter, you will take a snapshot of the virtual machine.

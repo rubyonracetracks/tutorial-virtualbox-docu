@@ -1,20 +1,14 @@
 ---
 id: chapter10
-title: "Chapter 10: Updating SparkyLinux"
+title: "Chapter 10: Updating MX Linux"
 ---
 
-* Boot up the SparkyLinux virtual machine.
+* Boot up the MX Linux virtual machine.
 * When prompted, log into your virtual machine.
-* You'll see a dialog box asking if you wish to fully upgrade the system and install missing language packages.  Click on "OK".
-* Enter your password when prompted.
-* When prompted about whether you wish to upgrade, select the "Upgrade" option (instead of "Changelog" or "Exit"), and click on "OK".
-* It will take a few minutes to a few hours to update your system.  How long this takes depends on the age of the ISO file you used for installing Linux, the speed of your computer, and the speed of your Internet connection.
-* When the system update is complete, press "OK" when prompted.
-* You will be prompted to install missing locale packages of your language.  If your language is American English, just click on "Exit" to skip this step.  Otherwise, pick the language for which you wish to install locale packages.
-* Add to the SparkyLinux desktop clickable icons for the software you will use most frequently.
-  * Go to Menu -> Internet -> Firefox ESR.  Right-click, and select "Add to desktop".
-  * Repeat the above step for Menu -> System Tools -> File Manager PCManFM.
-  * Repeat the above step for Menu -> System Tools -> LXTerminal.
-* Click on Menu -> Logout, and select the option to shut down your computer.
-* Save a snapshot of the current state of your virtual machine.  Use the name "Updated SparkyLinux (insert date here)".
-* CONGRATULATIONS!  You are now ready to roll with your Linux virtual machine.
+* After you are logged in, click on the bright green box in the panel near the left edge of the screen.  This takes you into the MX Updater.
+* Select both options - the option to automatically answer yes to all upgrade prompts and the option to automatically close the terminal window when the upgrade is complete.
+* Click on "Upgrade".  When prompted, enter your root password.
+* When the upgrade process is finished, the upgrade window will disappear, and that bright green box that you clicked on earlier will be black.
+* Shut down the virtual machine using the same procedure described at the end of Chapter 6.
+* Save a snapshot of the current state of your virtual machine.  Use the name "Updated MX Linux".  I recommend adding today's date to the name of this snapshot as well.
+* CONGRATULATIONS!  You are now ready to roll with your Linux virtual machine.  If you ever want to or need to return your virtual machine to this state, you can restore this snapshot rather than reinstall MX Linux.
