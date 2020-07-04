@@ -1,5 +1,5 @@
-[![Build Status](https://semaphoreci.com/api/v1/jhsu802701/tutorial-virtualbox-buster-docu/branches/master/badge.svg)](https://semaphoreci.com/jhsu802701/tutorial-virtualbox-buster-docu)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c0fe7826-f81c-4edf-96ca-93230a2ea0ca/deploy-status)](https://app.netlify.com/sites/tutorial-vbox-docu/deploys)
+[![Build Status](https://semaphoreci.com/api/v1/jhsu802701/tutorial-vbox-docu/branches/master/badge.svg)](https://semaphoreci.com/jhsu802701/tutorial-vbox-docu)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fd6764c5-9f53-4c1a-a2ff-701711133061/deploy-status)](https://app.netlify.com/sites/tutorial-vbox-docu/deploys)
 
 # Welcome to the VirtualBox Tutorial Source Code!
 
